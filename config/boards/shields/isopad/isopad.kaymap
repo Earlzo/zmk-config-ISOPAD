@@ -1,0 +1,21 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/xmk/keys.h>
+#include <dt-bindings/zmk/bt/h>
+
+/{
+    keymap {
+        compatiable = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &kp KP_N7
+            >;
+        }:
+
+        bt_layer {
+            bindings = <
+                &bootloader
+            >;
+        }
+    }
+}
