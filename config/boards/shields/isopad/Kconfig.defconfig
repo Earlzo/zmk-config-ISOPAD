@@ -1,0 +1,6 @@
+if SHIELD_ISOPAD
+
+congif ZMK_KAYBOARD_NAME
+    default "isopad"
+
+    endif
