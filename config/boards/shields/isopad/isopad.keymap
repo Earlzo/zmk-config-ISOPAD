@@ -9,6 +9,6 @@
             bindings = <
                 &kp KP_N7
             >;
-        }:
+        };
     };
 };
