@@ -7,7 +7,7 @@
 
         default_layer {
             bindings = <
-                &kp KP_7
+                &kp LGUI
             >;
         };
     };
