@@ -3,11 +3,11 @@
 
 /{
     keymap {
-        compatiable = "zmk,keymap";
+        compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp KP_N7
+                &kp KP_7
             >;
         };
     };
